@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="15cm" height="37cm" viewBox="199 179 283 723" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="220" y="180" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="180" width="80" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="220" x2="260" y2="270.264"/>
+    <polygon style="fill: #000000" points="260,277.764 255,267.764 260,270.264 265,267.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,277.764 255,267.764 260,270.264 265,267.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="280" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="280" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="200">
+    <tspan x="240" y="200">Start</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="280">
+    <tspan x="220" y="280"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="300">
+    <tspan x="240" y="300">Eingabe </tspan>
+    <tspan x="240" y="316">der Zahl</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="320" x2="260" y2="370.264"/>
+    <polygon style="fill: #000000" points="260,377.764 255,367.764 260,370.264 265,367.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,377.764 255,367.764 260,370.264 265,367.764 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="260.107,480 320.213,540 260.107,600 200,540 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.107,480 320.213,540 260.107,600 200,540 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260.107" y="543.9">
+      <tspan x="260.107" y="543.9"></tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260.107" y="540">
+    <tspan x="260.107" y="540"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="380" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="380" width="80" height="40"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="403.9">
+      <tspan x="260" y="403.9"></tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="420" x2="260" y2="470.264"/>
+    <polygon style="fill: #000000" points="260,477.764 255,467.764 260,470.264 265,467.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,477.764 255,467.764 260,470.264 265,467.764 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="400">
+    <tspan x="240" y="400">Prüfe </tspan>
+    <tspan x="240" y="416">die Zahl</tspan>
+    <tspan x="240" y="432"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="540">
+    <tspan x="220" y="540">Zahl &gt;/&lt; 0</tspan>
+    <tspan x="220" y="556"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="400" y="520" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="520" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="540">
+    <tspan x="420" y="540">Zahl &lt;0</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="320.213" y1="540" x2="390.264" y2="540"/>
+    <polygon style="fill: #000000" points="397.764,540 387.764,545 390.264,540 387.764,535 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="397.764,540 387.764,545 390.264,540 387.764,535 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="660" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="660" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="680">
+    <tspan x="240" y="680">Zahl&gt;0</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260.107" y1="600" x2="260.017" y2="650.264"/>
+    <polygon style="fill: #000000" points="260.004,657.764 255.022,647.755 260.017,650.264 265.022,647.773 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.004,657.764 255.022,647.755 260.017,650.264 265.022,647.773 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="400" y="860" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="860" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="880">
+    <tspan x="400" y="880">Fehlerhafte</tspan>
+    <tspan x="400" y="896">Eingabe</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="440" y1="560" x2="440" y2="850.264"/>
+    <polygon style="fill: #000000" points="440,857.764 435,847.764 440,850.264 445,847.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440,857.764 435,847.764 440,850.264 445,847.764 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="700" x2="260" y2="750.264"/>
+    <polygon style="fill: #000000" points="260,757.764 255,747.764 260,750.264 265,747.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,757.764 255,747.764 260,750.264 265,747.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="760" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="760" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="780">
+    <tspan x="220" y="780">Brechnung </tspan>
+    <tspan x="220" y="796">der Steuer</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="800" x2="260" y2="850.264"/>
+    <polygon style="fill: #000000" points="260,857.764 255,847.764 260,850.264 265,847.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,857.764 255,847.764 260,850.264 265,847.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="860" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="860" width="80" height="40"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="880">
+    <tspan x="240" y="880">Ende</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="400" y1="880" x2="309.736" y2="880"/>
+    <polygon style="fill: #000000" points="302.236,880 312.236,875 309.736,880 312.236,885 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="302.236,880 312.236,875 309.736,880 312.236,885 "/>
+  </g>
+</svg>
