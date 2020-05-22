@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1590141972 source:/home/sebastian/Schreibtisch/ue12_SternDreieckstransformation/main.c
+	<stdio.h>
+	<math.h>
+
