@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ue14_kleines1x1
+PROJECTNAME=ue15_kleines1x1
 
 # Active Configuration
 DEFAULTCONF=Debug

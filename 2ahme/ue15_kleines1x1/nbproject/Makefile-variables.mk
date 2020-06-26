@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=ue14_kleines1x1
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ue14_kleines1x1
+CND_ARTIFACT_NAME_Debug=ue15_kleines1x1
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ue15_kleines1x1
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=ue14kleines1x1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ue14kleines1x1.tar
+CND_PACKAGE_NAME_Debug=ue15kleines1x1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ue15kleines1x1.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=ue14_kleines1x1
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ue14_kleines1x1
+CND_ARTIFACT_NAME_Release=ue15_kleines1x1
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ue15_kleines1x1
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=ue14kleines1x1.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ue14kleines1x1.tar
+CND_PACKAGE_NAME_Release=ue15kleines1x1.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ue15kleines1x1.tar
 #
 # include compiler specific variables
 #
