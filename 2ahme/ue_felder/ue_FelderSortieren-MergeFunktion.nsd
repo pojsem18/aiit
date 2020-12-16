@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.30-06" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" author="barbarapojer" created="2020-12-16" origin="Structorizer 3.30-06 / C99Parser: &#34;/Users/barbarapojer/Desktop/Schule/ue_FeldSortieren/main.c&#34;" text="&#34;merge(double f[], int links, int mitte, int rechts)&#34;" comment="" color="ffffff" type="sub" style="nice">
+	<children>
+		<instruction text="&#34;nl &#60;- mitte - links + 1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;nr &#60;- rechts - mitte&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<for text="&#34;for i &#60;- 0 to nl - 1&#34;" comment="" counterVar="i" startValue="0" endValue="nl - 1" stepConst="1" style="COUNTER" color="ffffff" disabled="0">
+			<qFor>
+				<instruction text="&#34;l[i] &#60;- f[links + i]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFor>
+		</for>
+		<for text="&#34;for j &#60;- 0 to nr - 1&#34;" comment="" counterVar="j" startValue="0" endValue="nr - 1" stepConst="1" style="COUNTER" color="ffffff" disabled="0">
+			<qFor>
+				<instruction text="&#34;r[j] &#60;- f[mitte + 1 + j]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFor>
+		</for>
+		<instruction text="&#34;i &#60;- 0&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;j &#60;- 0&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;k &#60;- links&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<while text="&#34;while (i &#60; nl) and (j &#60; nr)&#34;" comment="" color="ffffff" disabled="0">
+			<qWhile>
+				<alternative text="&#34;l[i] &#62; r[j]&#34;" comment="" color="ffffff" disabled="0">
+					<qTrue>
+						<instruction text="&#34;f[k] &#60;- r[j]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;j &#60;- j + 1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;k &#60;- k + 1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;f[k] &#60;- l[i]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;i &#60;- i + 1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;k &#60;- k + 1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<while text="&#34;while (i &#60; nl)&#34;" comment="" color="ffffff" disabled="0">
+			<qWhile>
+				<instruction text="&#34;f[k++] &#60;- l[i++]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qWhile>
+		</while>
+		<while text="&#34;while (j &#60; nr)&#34;" comment="" color="ffffff" disabled="0">
+			<qWhile>
+				<instruction text="&#34;f[k++] &#60;- r[j++]&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qWhile>
+		</while>
+	</children>
+</root>
