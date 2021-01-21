@@ -1,0 +1,48 @@
+
+close all;
+clear all;
+clc;
+
+global DEBUG_ECG;
+DEBUG_ECG = 0;      %set this variable to 1 to show debug figures and information
+
+fs = 360;               %sample rate of ecg signal
+load 100;               %load ecg signals from database
+ecg_wave = ecg(:,1)';
+time = 0:1/fs:(length(ecg_wave)-1)*1/fs;
+
+%4.2.1 - 4.2.6
+[r_peaks1, p_wave, t_wave] = ecg_rdetect(ecg_wave, fs);           %use 2 times differentation method
+r_peaks2 = ecg_rdetect(ecg_wave, fs, 0.4);                        %use threshold method
+
+%4.2.7
+%define a template containing the qrs complex
+n_samples_qr = 0.05 * fs;
+n_samples_rs = 0.15 * fs;
+ecg_qrs_template = ecg_wave(r_peaks1(1) - n_samples_qr : r_peaks1(1) + n_samples_rs);    % use first qrs complex in signal ecg_wave as template
+
+  
+ecg_qrs_correlation = xcorr(ecg_qrs_template-mean(ecg_qrs_template), ecg_wave-mean(ecg_wave));
+ecg_qrs_correlation = ecg_qrs_correlation(1:round(length(ecg_qrs_correlation)/2))/max(ecg_qrs_correlation);
+
+% ecg_qrs_correlation = diff(ecg_qrs_correlation);
+figure
+subplot(2,1,1);
+plot(time, ecg_wave);
+
+time_qrs_template = ((r_peaks1(1) - n_samples_qr):1:(r_peaks1(1) + n_samples_rs))*1/fs;
+hold on;
+plot(time_qrs_template, ecg_qrs_template, 'r');
+axis([0 1000*1/fs min(ecg_wave) max(ecg_wave)]);
+
+subplot(2,1,2);
+
+ecg_qrs_index = zeros(1, length(ecg_qrs_correlation));
+ecg_qrs_index(find(ecg_qrs_correlation>0.6)) = 1;
+ecg_qrs_index = [0, diff(ecg_qrs_index)];
+ecg_qrs_index(find(ecg_qrs_index<0)) = 0;
+plot(ecg_qrs_correlation)
+hold on;
+plot(ecg_qrs_index, '*r');
+axis([0 1000 0 max(ecg_qrs_correlation)]);
+
