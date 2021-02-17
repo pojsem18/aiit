@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1613572021 source:/home/sebastian/Schreibtisch/ue_nameSort/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
