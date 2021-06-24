@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1623934111 source:/home/sebastian/Schreibtisch/ue_RadtourNeu/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
